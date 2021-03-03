@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "magz-blog",
+    title: "An Ambitious Attempt",
+    siteUrl: "https://www.magzb.ca",
+    description: "Magz's Personal Blog"
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-react-helmet"],
 };
